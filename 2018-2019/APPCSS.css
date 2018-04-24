@@ -1,0 +1,104 @@
+#global_nav_dashboard_link {
+	display: none !important;
+}
+
+.ic-app-header__logomark {
+	display: none !important;
+}
+
+#criterion__6285 {
+	display: none !important;
+}
+
+#criterion_228_1109 {
+	display: none !important;
+}
+
+#criterion_228_8316 {
+	display: none !important;
+}
+
+/*Remove Record/Upload media button*/
+#mceu_22  {
+	display: none !important;
+}
+
+/*Remove insert/edit media button*/
+#mceu_16  {
+	display: none !important;
+}
+
+/*Style all blue buttons in signature courses*/
+.bluebutton {
+	box-shadow: 2px 2px 2px grey;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #003F87;
+	border-width: 2px;
+	font-weight: bold;
+	padding: 2px;
+	color: #003F87;
+	text-decoration: none;
+}
+
+.bluebutton:hover {
+    background-color: #003F87;
+		text-decoration: none;
+		color: white;
+}
+
+/*Style all home page buttons in signature courses*/
+.mainbutton {
+		max-width: 130px;
+		border-radius: 5px;
+		border: solid;
+		border-width: thin;
+		border-color: #3c464a;
+		box-shadow: 2px 2px 2px grey;
+}
+
+.mainbutton:hover {
+		border: solid;
+		border-width: 3px;
+		border-color: #003F87;
+}
+
+/*Style all session materials and assessment buttons in signature courses*/
+.SAbutton {
+	border: 3px solid #3C464A;
+	border-radius: 10px;
+}
+
+.SAbutton:hover {
+		border: 3px solid #008ED6;
+}
+
+/*Style all induction and intensive landing page buttons in signature courses*/
+.isessionbutton {
+		box-shadow: 2px 2px 2px grey;
+		border-radius: 5px;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #003F87;
+		color: #003F87;
+		padding: 20px;
+		text-decoration: none;
+		font-weight: bold;
+		line-height: 4
+}
+
+.isessionbutton:hover {
+		background-color: #003F87;
+		text-decoration: none;
+		color: white;
+}
+
+/*Style all green buttons on session materials pages in signature courses*/
+.sessionbutton {
+		box-shadow: 2px 2px 2px grey;
+		border-radius: 5px;
+}
+
+.sessionbutton:hover {
+		border: 3px solid #3C464A;
+}
