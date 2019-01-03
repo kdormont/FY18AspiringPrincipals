@@ -30,21 +30,22 @@
 
 /*Style all blue buttons in signature courses*/
 .bluebutton {
+	background-color: #003F87;
 	box-shadow: 2px 2px 2px grey;
-	border-radius: 10px;
+	border-radius: 7px;
 	border-style: solid;
 	border-color: #003F87;
 	border-width: 2px;
 	font-weight: bold;
-	padding: 2px;
-	color: #003F87;
-	text-decoration: none;
+	padding: 2px 1px 2px 5px;
+	color: white;
+	text-decoration: none !important;
 }
 
 .bluebutton:hover {
-    background-color: #003F87;
-		text-decoration: none;
-		color: white;
+		opacity: 0.8;
+		color: white !important;
+		text-decoration: none !important;
 }
 
 /*Style all home page buttons in signature courses*/
@@ -52,15 +53,16 @@
 		max-width: 130px;
 		border-radius: 5px;
 		border: solid;
-		border-width: thin;
-		border-color: #3c464a;
+		border-width: 3px;
+		border-color: #003F87;
 		box-shadow: 2px 2px 2px grey;
 }
 
 .mainbutton:hover {
 		border: solid;
 		border-width: 3px;
-		border-color: #003F87;
+		border-color: #3c464a;
+		opacity: 0.8;
 }
 
 /*Style all session materials and assessment buttons in signature courses*/
@@ -75,30 +77,32 @@
 
 /*Style all induction and intensive landing page buttons in signature courses*/
 .isessionbutton {
+		background-color: #003F87;
 		box-shadow: 2px 2px 2px grey;
 		border-radius: 5px;
 		border-style: solid;
 		border-width: 2px;
 		border-color: #003F87;
-		color: #003F87;
+		color: white;
 		padding: 20px;
-		text-decoration: none;
+		text-decoration: none !important;
 		font-weight: bold;
 		line-height: 4
 }
 
 .isessionbutton:hover {
-		background-color: #003F87;
-		text-decoration: none;
-		color: white;
+		color: white !important;
+		text-decoration: none !important;
+		opacity: 0.8
 }
 
 /*Style all green buttons on session materials pages in signature courses*/
 .sessionbutton {
+		border-right: 8px solid #496C73;
 		box-shadow: 2px 2px 2px grey;
 		border-radius: 5px;
 }
 
 .sessionbutton:hover {
-		border: 3px solid #3C464A;
+		opacity: 0.8;
 }
